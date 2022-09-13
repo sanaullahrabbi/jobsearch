@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Job Search</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+			rel="stylesheet" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+			integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer" />
+		<link rel="stylesheet" href="./dist/tailwind.css" />
+	</head>
+	<body
+		style="font-family: 'Poppins', sans-serif"
+		class="text-neutral-800 overflow-x-hidden">
+		<header class="fixed w-full z-10">
+			<nav class="flex items-center justify-between py-8 px-16">
+				<img src="./assets/logo.png" alt="" class="logo w-24" />
+				<ul class="menu-items">
+					<li>
+						<a href="" class="menu-item active">Home</a>
+					</li>
+					<li>
+						<a href="" class="menu-item">Employer</a>
+					</li>
+					<li>
+						<a href="" class="menu-item">Candidate</a>
+					</li>
+				</ul>
+				<div class="actions hidden sm:block space-x-4">
+					<a href="" class="inline-block p-2">Login</a>
+					<a
+						href=""
+						class="inline-block px-8 py-2 rounded-3xl text-white bg-orange-400">
+						Sign Up
+					</a>
+				</div>
+				<div class="menu-btn">
+					<div></div>
+					<div></div>
+					<div></div>
+				</div>
+				<ul class="menu-mobile">
+					<li>
+						<a href="" class="menu-item">Home</a>
+					</li>
+					<li>
+						<a href="" class="menu-item">Employer</a>
+					</li>
+					<li>
+						<a href="" class="menu-item">Candidate</a>
+					</li>
+					<li><a href="" class="block p-2">Login</a></li>
+					<li>
+						<a
+							href=""
+							class="inline-block px-8 py-2 rounded-3xl text-white bg-orange-400">
+							Sign Up
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<section class="h-screen">
+				<div class="hero-container">
+					<div class="hero-content px-6 py-12 max-w-screen-2xl sm:space-y-10">
+						<h1 data-aos="fade-down" data-aos-duration="1000">
+							Find the job of your
+							<span class="text-orange-400">Dreams</span>
+						</h1>
+						<p class="mb-8 text-sm leading-relaxed max-w-2xl" data-aos="fade-up" data-aos-delay="1000">
+							Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+							Voluptatem nobis sed quis amet ex officia, odit alias dicta
+							voluptas! Illo, totam unde?
+						</p>
+						<div class="mb-8">
+							<h4 class="text-center sm:text-left mb-2 font-semibold">
+								Trending Jobs keyword :
+							</h4>
+							<div
+								class="trending-container text-orange-400 flex justify-center sm:justify-start space-x-4 font-semibold">
+								<span>Web Designer</span>
+								<span>UI?UX Designer</span>
+								<span>Frontend</span>
+							</div>
+						</div>
+						<form action="" class="search-box flex relative">
+							<img
+								src="./assets/search.png"
+								class="absolute w-6 top-2 left-2" />
+							<input
+								type="text"
+								class="w-full py-2.5 px-5 pl-12 rounded-3xl text-sm outline-none focus:ring-2 ring-orange-300 transition-all"
+								placeholder="Job title or keyword" />
+							<button
+								class="bg-orange-400 text-white absolute rounded-2xl text-sm right-1 py-1.5 px-3 top-1 animate-pulse">
+								Search
+							</button>
+						</form>
+					</div>
+					<img
+						src="./assets/image-hero.png"
+						alt=""
+						class="w-11/12 sm:w-2/5 ml-auto" />
+				</div>
+			</section>
+			<section class="px-6 py-12 bg-white">
+				<div class="text-center container mx-auto">
+					<h4 class="text-md font-semibold mb-8">
+						Join Most Well Known
+						<span class="text-orange-400">Companies</span>
+						Around The World
+					</h4>
+					<div
+						class="companies flex flex-wrap gap-12 justify-around items-center">
+						<img src="./assets/slack.png" alt="" class="w-32" />
+						<img src="./assets/microsoft.png" alt="" class="w-32" />
+						<img src="./assets/google.png" alt="" class="w-32" />
+						<img src="./assets/airbnb.png" alt="" class="w-32" />
+					</div>
+				</div>
+			</section>
+			<section>
+				<div class="categories-container">
+					<h4 class="text-orange-400 text-center mb-4 font-bold">
+						choose categories
+					</h4>
+					<h3 class="text-3xl text-center font-semibold">Our Categories</h3>
+					<div
+						class="categories-boxs flex gap-8 mt-12 flex-wrap justify-center">
+						<div class="box">
+							<img src="./assets/cat1.png" />
+							<div>
+								<h3>Marketing &amp; Communication</h3>
+								<p>58 Jobs Available</p>
+							</div>
+						</div>
+						<div class="box active-box">
+							<img src="./assets/cat2.png" />
+							<div>
+								<h3>UI/UX Design</h3>
+								<p>128 Jobs Available</p>
+							</div>
+						</div>
+						<div class="box">
+							<img src="./assets/cat3.png" />
+							<div>
+								<h3>Finace Management</h3>
+								<p>201 Jobs Available</p>
+							</div>
+						</div>
+						<div class="box">
+							<img src="./assets/cat4.png" />
+							<div>
+								<h3>Project Management</h3>
+								<p>87 Jobs Available</p>
+							</div>
+						</div>
+						<div class="box">
+							<img src="./assets/cat5.png" />
+							<div>
+								<h3>Business &amp; Consulting</h3>
+								<p>23 Jobs Available</p>
+							</div>
+						</div>
+						<div class="box">
+							<img src="./assets/cat6.png" />
+							<div>
+								<h3>Graphic Designer</h3>
+								<p>68 Jobs Available</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div class="profile-container">
+					<img src="./assets/profile.png" alt="" class="w-4/5 sm:w-1/2" data-aos="fade-right" data-aos-duration="1000" />
+					<div class="max-w-lg p-6">
+						<h4 class="text-orange-400">Create Profile</h4>
+						<h2>Build Your Personal Account Profile</h2>
+						<p class="text-sm leading-8 mb-8">
+							Create an account for the job information you want, get daily
+							notifications and you can easily apply directly to the company you
+							want and create an account now for free
+						</p>
+						<button
+							class="inline-block px-8 py-3 rounded-xl font-semibold text-white bg-orange-400 animate-bounce">
+							Create Account
+						</button>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div class="work-container">
+					<div class="content max-w-lg p-6">
+						<h4 class="text-orange-400 font-bold">How it Works</h4>
+						<h2>Easy Step To Find and Apply Your Dream Job</h2>
+						<p class="text-sm py-3 leading-loose">
+							We will help you to find your dream job easily, let us help you
+							manage everything you need
+						</p>
+						<br />
+						<div data-aos="fade-zoom-in" data-aos-delay="1000" data-aos-duration="750"
+							class="content-box max-w-md rounded-xl p-6 bg-white mx-6 sm:mx-0">
+							<h3 class="text-orange-400 font-semibold mb-2">
+								Easy to upload Your Best CV and Portfolio
+							</h3>
+							<p class="leading-relaxed">
+								You can upload your resume, CV, and portfolio directly to Job
+							</p>
+							<br />
+							<h3 class="text-orange-400 font-semibold mb-2">
+								You Will Be Notified With All Updates
+							</h3>
+							<p class="leading-relaxed">
+								Get notified about new job vacancies. scheduled interview and
+								job application
+							</p>
+							<br />
+							<h3 class="text-orange-400 font-semibold mb-2">
+								Apply for your dream job from the best company
+							</h3>
+							<p class="leading-relaxed">
+								We will provide recommendations for your choice companies from
+								all over the world
+							</p>
+						</div>
+					</div>
+					<img src="./assets/work.png" alt="" class="w-4/5 sm:w-1/2" data-aos="fade-left" data-aos-duration="1000" />
+				</div>
+			</section>
+			<section class="p-6 pt-16">
+				<div class="subscribe-container">
+					<h3 class="text-2xl text-white text-center mb-4 sm:m-0">
+						Never Want to Miss Any Job News?
+					</h3>
+					<div
+						class="w-full sm:w-1/2 relative flex items-center justify-center">
+						<input
+							type="text"
+							placeholder="Enter your email address..."
+							class="text-sm px-6 py-3 w-full rounded-3xl" />
+						<button
+							class="btn-orange absolute right-1 text-sm rounded-3xl px-4 py-2 bg-orange-400 text-white">
+							Subscribe
+						</button>
+					</div>
+				</div>
+			</section>
+			<footer>
+				<div>
+					<img src="./assets/logo.png" id="logo" class="logo w-24 mb-2" />
+					<p class="text-sm">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quia
+						libero blanditiis autem aliquam numquam maxime praesentium
+						aspernatur?
+					</p>
+				</div>
+				<div>
+					<h3>Employer</h3>
+					<span>About Us</span>
+					<span>Careers</span>
+					<span>Blog</span>
+				</div>
+				<div>
+					<h3>Find Vacancy Based On</h3>
+					<span>Help Center</span>
+					<span>Job Location</span>
+					<span>Company Name</span>
+				</div>
+				<div>
+					<h3>Address</h3>
+					<span>hello@jobbb.com</span>
+					<span>
+						JL. Setiabudhi No. 193 Sukasari, Bandung West Java, Indonesia
+					</span>
+				</div>
+			</footer>
+		</main>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+			integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"></script>
+		<script src="./main.js"></script>
+	</body>
+</html>
+<!-- https://myjobsearch.netlify.app/ -->

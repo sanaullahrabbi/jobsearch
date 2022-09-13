@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+section {
+	@apply bg-[#ffefe2];
+}
+
+h1 {
+	@apply text-[2rem] lg:text-4xl xl:text-5xl font-bold mb-4;
+}
+h2 {
+	@apply text-[2rem] lg:text-4xl lg:leading-relaxed font-bold mb-4;
+}
+
+nav {
+	transition: all 0.3s ease-in-out;
+}
+.sticky {
+	@apply bg-white py-4 shadow-md shadow-orange-100;
+}
+/* HERO START */
+.hero-container {
+	@apply container flex flex-col-reverse sm:flex-row justify-between items-center ml-auto h-full;
+}
+/* HERO END */
+
+/* MENU START */
+.menu-items {
+	@apply hidden sm:flex gap-8;
+}
+.menu-item {
+	@apply block p-2 hover:text-orange-400 transition-colors;
+}
+.menu-item.active {
+	@apply text-orange-400;
+}
+.menu-mobile {
+	@apply flex flex-col gap-4 invisible transition-all absolute text-center top-32 opacity-0 left-0 w-full sm:hidden bg-white px-2 py-8;
+}
+.menu-mobile.open {
+	@apply visible top-20 opacity-100;
+}
+.menu-mobile .menu-item {
+	@apply hover:bg-orange-200 hover:text-white transition-colors;
+}
+.menu-btn {
+	@apply space-y-1.5 sm:hidden;
+}
+.menu-btn div {
+	@apply w-6 h-0.5 bg-orange-400;
+}
+/* MENU END */
+
+/* CATEGORIES START */
+.categories-container {
+	@apply container px-4 py-12 mx-auto;
+}
+/* CATEGORIES END */
+.box {
+	@apply flex px-4 py-6 gap-4 rounded-2xl items-center w-72 h-32 bg-white;
+}
+.box img {
+	@apply w-8 m-2;
+}
+.box h3 {
+	@apply font-bold mb-4;
+}
+.box.active-box {
+	@apply bg-orange-400 text-white;
+}
+
+/* PROFILE START */
+.profile-container {
+	@apply flex flex-col sm:flex-row justify-center items-center container mx-auto;
+}
+/* PROFILE END */
+
+/* WORK START */
+.work-container {
+	@apply flex flex-col sm:flex-row justify-center items-center container mx-auto;
+}
+/* WORK END */
+
+/* SUBSCRIBE START */
+.subscribe-container {
+	background: url("../assets/Subscribe.png");
+	background-size: cover;
+	background-position: bottom;
+	@apply container mx-auto h-48 p-6 flex flex-wrap justify-around items-center bg-orange-400 rounded-2xl;
+}
+/* SUBSCRIBE END */
+
+/* FOOTER START */
+footer {
+	@apply grid p-8 container mx-auto;
+	grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+footer div {
+	@apply p-4 flex flex-col;
+}
+footer h3 {
+	@apply font-bold mb-4;
+}
+/* FOOTER END */
