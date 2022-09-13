@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 section {
-	@apply bg-[#ffefe2];
+	@apply bg-[#ffefe2] w-full overflow-hidden;
 }
 
 h1 {
@@ -16,7 +16,7 @@ h2 {
 nav {
 	transition: all 0.3s ease-in-out;
 }
-.sticky {
+.sticky-header {
 	@apply bg-white py-4 shadow-md shadow-orange-100;
 }
 /* HERO START */

@@ -597,11 +597,6 @@ video {
   position: relative;
 }
 
-.sticky {
-  position: -webkit-sticky;
-  position: sticky;
-}
-
 .top-2 {
   top: 0.5rem;
 }
@@ -974,6 +969,8 @@ video {
 }
 
 section {
+  width: 100%;
+  overflow: hidden;
   --tw-bg-opacity: 1;
   background-color: rgb(255 239 226 / var(--tw-bg-opacity));
 }
@@ -1016,7 +1013,7 @@ nav {
   transition: all 0.3s ease-in-out;
 }
 
-.sticky {
+.sticky-header {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   padding-top: 1rem;

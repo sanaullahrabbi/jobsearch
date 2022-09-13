@@ -12,5 +12,5 @@ AOS.init();
 
 window.addEventListener("scroll", function () {
 	console.log(window.scrollY);
-	nav.classList.toggle("sticky", window.scrollY > 0);
+	nav.classList.toggle("sticky-header", window.scrollY > 0);
 });
